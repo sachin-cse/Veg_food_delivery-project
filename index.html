@@ -8,6 +8,16 @@
     <title>Ratnagiri Veg Food Delivery</title>
 </head>
 <body>
+ <div class="parent">
+    <div class="child">
+      <span class="circle"></span>
+      <span class="circle"></span>
+      <span class="circle"></span>
+      <span class="circle"></span> 
+      <span class="circle"></span> 
+      <span class="circle"></span>
+    </div>
+  </div>
     <header class="header__navbar">
         <div class="navbar" id="navbar">
             <h1 class="navbar__logo"><a href="https://codepen.io/cryptoctopus/collections/popular/">Ratnagiri Veg Food</a></h1>
@@ -87,6 +97,11 @@
           </center>
         </section>
     </main>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      setTimeout(function(){
+        $('.parent').fadeToggle();
+      },1500);
+      </script>
 </body>
 </html>
